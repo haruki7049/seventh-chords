@@ -1,0 +1,24 @@
+.{
+    .name = .seventh_chords,
+    .version = "0.0.0",
+    .fingerprint = 0xd1e0880637c61db9,
+    .minimum_zig_version = "0.15.2",
+
+    .dependencies = .{
+        .lightmix = .{
+            .url = "https://github.com/haruki7049/lightmix/archive/refs/tags/0.15.0.tar.gz",
+            .hash = "lightmix-0.15.0-SpCovIlLAgA2fVG1rWRTstjLoMIh7AIXmaHnPrALkK8o",
+        },
+        .lightmix_filters = .{
+            .url = "https://github.com/haruki7049/lightmix_filters/archive/refs/tags/0.1.0.tar.gz",
+            .hash = "lightmix_filters-0.1.0-QAX9gdIPIgCypf8xMX5xgHHD_KJ-b2AMgYiTEP-Dgdhu",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+    },
+}
