@@ -1,7 +1,7 @@
 # seventh-chords
 
 ```sh
-zig build run
+zig build
 ```
 
 ## Zig version
